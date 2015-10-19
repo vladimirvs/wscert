@@ -17,3 +17,6 @@ hs_err_pid*
 */.project
 */.settings/*
 
+dual_binding/.classpath
+dual_binding/build.xml
+**/.classpath

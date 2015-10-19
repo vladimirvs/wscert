@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jws:handler-chains xmlns:jws="http://java.sun.com/xml/ns/javaee">
+	<jws:handler-chain>
+		<jws:handler>
+			<jws:handler-class>handlers.SoapHandlerOne</jws:handler-class>
+		</jws:handler>
+	</jws:handler-chain>
+	<jws:handler-chain>
+		<jws:handler>
+			<jws:handler-class>handlers.SoapHandlerTwo</jws:handler-class>
+		</jws:handler>
+	</jws:handler-chain>
+	<jws:handler-chain>
+		<jws:handler>
+			<jws:handler-class>handlers.MessageHandlerOne</jws:handler-class>
+		</jws:handler>
+	</jws:handler-chain>
+</jws:handler-chains>
